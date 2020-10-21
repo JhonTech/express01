@@ -1,0 +1,11 @@
+body{
+  background-color: rgb(135, 135, 135);
+}
+
+div {
+  color: rgb(61, 232, 94);
+  border: solid 3px black;
+  border-radius: 6px;
+  width: 450px;
+  text-align: center;
+}

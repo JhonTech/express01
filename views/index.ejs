@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MOTOR</title>
+  </head>
+  <body>
+    <h1>MOTOR DE PLATILLA EJS</h1>
+
+    <ul>
+      <% data.forEach(function(user){ %>
+        <% console.log(user); %> <!--miramos lo que llega-->
+        <li> <%= user.name %> </li><!--pintamos los datos en el front-->
+      <% }); %>
+
+    </ul>
+
+  </body>
+</html>
